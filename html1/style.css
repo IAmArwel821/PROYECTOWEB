@@ -1,0 +1,180 @@
+.lienzo {
+  background-color: #fff;
+  width: 300px;
+  height: 10px;
+  padding: 250px;
+  border: 2px solid black;
+  margin: 1px auto;
+  position: relative;
+  left: 1000S0px;
+  top: 5000S0px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background: white;
+}
+
+.lienzo1 {
+  position: relative;
+   width: 300px;
+  height: 50px;
+  background: white;
+  left: 0px;
+  top: -240px;
+  background: black;
+}
+
+.edomex {
+
+  left: 0 px;
+  top: -270;
+  width: 300px;
+  height: 50px;
+}
+
+.linea {
+  position: relative;
+  left: 0 px;
+  top: -240;
+  width: 700px;
+  height: 10px;
+}
+
+.lienzo2 {
+   position: relative;
+   width: 700px;
+  height: 10px;
+  background: white;
+  left: -200px;
+  top: -240px;
+  background: black;
+}
+
+.colegio {
+  position: relative;
+   width: 700px;
+  height: 10px;
+  background: white;
+  left: -200px;
+  top: -260px;
+  background: white;
+}
+
+.plantel {
+  position: relative;
+   width: 70px;
+  height: 70px;
+  background: white;
+  left: -200px;
+  top: -250px;
+  background: white;
+}
+
+.nombre {
+  position: relative;
+   width: 500px;
+  height: 70px;
+  background: white;
+  left: -200px;
+  top: -230px;
+  background: white;
+}
+
+.eme {
+  position: relative;
+   width: 200px;
+  height: 200px;
+  background: white;
+  left: -200px;
+  top: -200px;
+  background: white;
+}
+
+.eme1 {
+  width: 230px;
+  height: 190px;
+}
+
+.guido {
+   position: relative;
+   width: 200px;
+  height: 250px;
+  background: white;
+  left: 300px;
+  top: -550px;
+  background: white;
+}
+
+.guido1 {
+  width: 200px;
+  height: 250px;
+}
+
+.vigencia {
+  position: relative;
+  width: 200px;
+  height: 50px;
+  left: 300px;
+  top: -500px;
+  background: white;
+}
+
+.lienzo3 {
+  background-color: #fff;
+  width: 300px;
+  height: 10px;
+  padding: 250px;
+  border: 2px solid black;
+  margin: 1px auto;
+  position: relative;
+  left: 1000S0px;
+  top: 5000S0px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background: black;
+}
+
+.firma1 {
+ position: relative;
+  width: 100px;
+  height: 80px;
+  left: -240px;
+  top: -220px;
+  background: white;
+}
+
+.firma {
+  width: 750px;
+  height: 470px;
+  left: -200px;
+  top: -200px;
+}
+
+.carrera {
+   position: relative;
+   width: 200px;
+  height: 50px;
+  background: white;
+  left: 40px;
+  top: -470px;
+  background: white;
+}
+
+.turno {
+  position: relative;
+   width: 200px;
+  height: 50px;
+  background: white;
+  left: 40px;
+  top: -440px;
+  background:white;
+}
+
+.control {
+  position: relative;
+   width: 200px;
+  height: 50px;
+  background: white;
+  left: 40px;
+  top: -410px;
+  background:white;
+}

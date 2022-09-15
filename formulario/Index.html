@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+</head>
+
+<body>
+  <h1>Formulario plantel tecamac</h1>
+  Nombre Del Alumno:<span name="c5" id="c5" class="c5"></span>
+  carrera del Alumno:<span name="c3" id="c3" class="c3"></span>
+  Folio del alumno:<span name="c1" id="c1" class="c1"></span>
+  aciertos del Alumno:<span name="c2" id="c2" class="c2"></span>
+  Fecha:<span name="c4" id="c4" class="c4"></span>
+  <hr>
+  <br>
+  <form>
+    <label>Foto del Alumno</label>
+    <input type="text" placeholder="Foto del alumno" class="foto" id="foto" name="foto" >
+  <label>Nombre del Alumno</label>
+  <input class="nombre" type="text" name="nombre" id="nombre" placeholder="Nombre del alumno" required>
+  <br>
+  <label>Apellido Paterno</label>
+  <input type="text" id="ap" name="ap" placeholder="Nombre Paterno" class="ap" required>
+  <br>
+ <label>Apellido Materno</label>
+ <input type="text" id="am" name="am" placeholder="Nombre Materno" class="am" required>
+ <br>
+  <label>Folio del Alumno</label>
+  <input class="folio" type="text" name="folio" id="folio" placeholder="Folio del alumno" required>
+  <br>
+  <label>Num. De aciertos de comipems</label>
+  <input class="aciertos" type="number" name="aciertos" id="aciertos" placeholder="Num. De aciertos de comipems" required >
+  <br>
+  <label>Carrera</label>
+  <input class="carrera" type="text" name="carrera" id="carrera" required>
+  <br>
+  <label>fecha</label>
+  <input type="date" class="fecha" required>
+  <br>
+  <label>Fecha de nacimiento (Día) </label>
+  <input type="number" class="dia" id="dia" name="dia" placeholder="Día de nacimiento" required>
+  <br>
+  <label>Fecha de nacimiento (Mes) </label>
+  <input type="number" class="mes" id="mes" name="mes" placeholder="mes de nacimiento" required>
+    <br>
+    <label>Fecha de nacimiento (Año) </label>
+  <input type="number" class="año" id="año" name="año" placeholder="año de nacimiento" required>
+      <br>
+  <label>Lugar de Nacimiento</label>
+  <input type="text" id="lugar" name="lugar" class="lugar" placeholder="Lugar de Nacimiento" required>
+  <br>
+  <label>Curp</label>
+  <input type="text" id="curp" name="curp" class="curp" placeholder="Curp del alumno" required>
+  <br>
+  <label>sexo</label>
+  <input type="text" id="sexo" name="sexo" class="sexo" placeholder="Sexo" required>
+  <br>
+  <label>Número del Alumno</label>
+  <input type="number" id="telefono" name="telefono" class="telefono" placeholder="Teléfono del Alumno" required>
+  
+  
+  <button onclick="Imprimir()">Imprimir Datos </button>
+ 
+  <script>
+  
+  const imprimir = () => {
+    
+    var folio = document.querySelector("#folio").value;
+    var aciertos = document.querySelector("#aciertos").value;
+    var carrera = document.querySelector ("#carrera").value;
+    var fecha = document.querySelector("#fecha").value;
+    var nombre = document.querySelector("#nombte").value;
+    var ap = document.querySelector("#ap").value;
+    var am = document.querySelector("#am").value;
+      
+ document.querySelector("#c1").innerHTML = `<b>${folio}</b>`;
+ document.querySelector("#c2").innerHTML = `<b>${aciertos}</b>`;
+ document.querySelector("#c3").innerHTML = `<b>${carrera} </b>`;
+ document.querySelector("#c4").innerHTML = `<b>${fecha} </b>`; 
+ document.querySelector("#c5").innerHTML = `<b>${nombre} ${ap}  ${am}</b>`;
+  };
+  
+  const borrar = ()=> {
+document.querySelector("#c1").innerHTML= '';
+document.querySelector("#c2").innerHTML='';
+document.querySelector("#c3").innerHTML='';
+document.querySelector("#c4").innerHTML='';
+document.querySelector("#c5").innerHTML='';
+  };
+   
+  
+  
+  
+  </script>
+  </form>
+</body>
+
+</html>
